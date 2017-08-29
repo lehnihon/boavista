@@ -29,21 +29,21 @@ new WOW().init();
 	<header id="header">
 		<div class="container">
 			<div class="row header-logo">
-				<div class="col-md-2 col-md-offset-5 logo-center">
+				<div class="col-md-3 col-md-offset-4 logo-center">
 					<div class="menu-responsivo">
 						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 						</button>
 						<ul class="dropdown-menu">
-						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."cardapio-semana" ); ?>">Cardápio da Semana</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."delivery" ); ?>">Delivery</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Quem Somos</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Fotos</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Massagens</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Acupuntura</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Estética</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Corporativo</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Terapeutas</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Contato</a></li>
 						</ul>								
 					</div>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>"/></a>
@@ -59,17 +59,16 @@ new WOW().init();
 			<div class="row header-menu">
 				<div class="col-md-12">
 					<nav>
-
 						<ul class="menu-principal clearfix">
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."cardapio-semana" ); ?>">Cardápio da Semana</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."delivery" ); ?>">Delivery</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Quem Somos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Fotos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Massagens</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Acupuntura</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Estética</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Corporativo</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Terapeutas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Contato</a></li>
 						</ul>
 					</nav><!-- #site-navigation -->						
 				</div>

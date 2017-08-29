@@ -42,15 +42,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		font-family:FuturaBT, Verdana, Geneva, sans-serif;
 		margin: 0;
 		margin-bottom: 20px;
-		font-size: 36px;
+		font-size: 26px;
 		color:#2b4499;
 	}
 
 	h1.title-full{
-		background-color:#f3f2e9;
+		background-color:#2b4499;
 		width:100%;
 		padding:30px 0; 
-		margin-bottom: 40px;
+		margin-bottom:0 !important;
+		color:#FFF !important;
 	}
 
 	h1.small{
@@ -116,7 +117,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	    height: 0;
 	}
 	.videoWrapper iframe {
-		pointer-events: none;
 	    position: absolute;
 	    top: 0;
 	    left: 0;
@@ -132,14 +132,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		-webkit-border-radius: 6px; 
 		-moz-border-radius: 6px; 
 		border-radius: 6px; 
-		background-color:#b5ab3a;
+		background-color:#ffc709;
 		padding:10px 45px;
 		color:white;
 		display:inline-block		
 	}
 
 	.btn-saiba-mais:hover{
-		background-color:#dfd99a;
+		background-color:#ffd23a;
 	}
 
 	.bx-wrapper .bx-viewport{

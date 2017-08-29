@@ -2,8 +2,8 @@
 get_header(); ?>
 
 <div id="content">
-	<section id="sobre">
-		<h1 class="title-full small"><div class="animated bounceIn">Fotos</div></h1>
+	<h1 class="title-full small wow fadeIn">Fotos</h1>
+	<div id="paginas">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -20,7 +20,7 @@ get_header(); ?>
 				</div>
 			</div>	
 		</div>
-	</section>
+	</div>
 
 	<?php get_template_part( 'template-parts/redes-bot'); ?>
 

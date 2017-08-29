@@ -2,35 +2,7 @@
 get_header(); ?>
 
 <div id="content">
-	<section id="banner">
-		<div class="container-fluid">
-			<div class="row">		
-				<?php 
-				    echo do_shortcode("[metaslider id=28]"); 
-				?>
-			</div>
-		</div>
-	</section>
-	<section id="atelie">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="small">SPA BOA VISTA</h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 fadeInLeft wow">
-					<a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria1.jpg"; ?>"/></a>
-				</div>
-				<div class="col-md-4 fadeInUp wow">
-					<a href="<?php echo esc_url( home_url( '/' )."eventos" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria2.jpg"; ?>"/></a>
-				</div>
-				<div class="col-md-4 fadeInRight wow">
-					<a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria3.jpg"; ?>"/></a>
-				</div>
-			</div>
-		</div>
-	</section>
+	<h1 class="title-full small wow fadeIn">Quem somos</h1>
 	<section id="detalhes">
 		<div class="container">
 			<div class="row">
@@ -82,7 +54,6 @@ certeza irão proporcionar um atendimento de alto nível.
 			</div>
 		</div>		
 	</section>
-
 	<section id="maps">
 		<div class="container-fluid">
 			<div class="row">
