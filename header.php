@@ -36,14 +36,14 @@ new WOW().init();
 						</button>
 						<ul class="dropdown-menu">
 						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Quem Somos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Fotos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Massagens</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."quem-somos" ); ?>">Quem Somos</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>">Fotos</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."massagens" ); ?>">Massagens</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Acupuntura</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Estética</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Corporativo</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Terapeutas</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Contato</a></li>
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."corporativo"; ?>">Corporativo</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 						</ul>								
 					</div>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>"/></a>
@@ -61,14 +61,14 @@ new WOW().init();
 					<nav>
 						<ul class="menu-principal clearfix">
 							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Quem Somos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Fotos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."#" ); ?>">Massagens</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."quem-somos" ); ?>">Quem Somos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>">Fotos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."massagens" ); ?>">Massagens</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Acupuntura</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Estética</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Corporativo</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Terapeutas</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Contato</a></li>
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."corporativo"; ?>">Corporativo</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 						</ul>
 					</nav><!-- #site-navigation -->						
 				</div>

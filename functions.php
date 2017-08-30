@@ -204,6 +204,25 @@ function register_post_type_fotos(){
 add_action(	'init','register_post_type_fotos');
 
 
+function register_post_type_fotos(){
+	$singular = 'Massagem';
+	$plural = 'Massagens';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar nova '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
+
+	register_post_type('massagens',$args);
+}
+add_action(	'init','register_post_type_fotos');
+
 /**
  * Implement the Custom Header feature.
  */
