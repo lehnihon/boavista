@@ -39,8 +39,8 @@ new WOW().init();
 						><li><a href="<?php echo esc_url( home_url( '/' )."quem-somos" ); ?>">Quem Somos</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>">Fotos</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' )."massagens" ); ?>">Massagens</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Acupuntura</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Estética</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."acupuntura"; ?>">Acupuntura</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."estetica"; ?>">Estética</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' ) )."corporativo"; ?>">Corporativo</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
@@ -64,8 +64,8 @@ new WOW().init();
 							><li><a href="<?php echo esc_url( home_url( '/' )."quem-somos" ); ?>">Quem Somos</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>">Fotos</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' )."massagens" ); ?>">Massagens</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Acupuntura</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."#"; ?>">Estética</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."acupuntura"; ?>">Acupuntura</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."estetica"; ?>">Estética</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."corporativo"; ?>">Corporativo</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>

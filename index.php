@@ -6,7 +6,7 @@ get_header(); ?>
 		<div class="container-fluid">
 			<div class="row">		
 				<?php 
-				    echo do_shortcode("[metaslider id=28]"); 
+				    echo do_shortcode("[metaslider id=4]"); 
 				?>
 			</div>
 		</div>

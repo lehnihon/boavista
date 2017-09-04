@@ -204,7 +204,7 @@ function register_post_type_fotos(){
 add_action(	'init','register_post_type_fotos');
 
 
-function register_post_type_fotos(){
+function register_post_type_massagens(){
 	$singular = 'Massagem';
 	$plural = 'Massagens';
 	$labels = array(
@@ -221,7 +221,45 @@ function register_post_type_fotos(){
 
 	register_post_type('massagens',$args);
 }
-add_action(	'init','register_post_type_fotos');
+add_action(	'init','register_post_type_massagens');
+
+function register_post_type_acupuntura(){
+	$singular = 'Acupuntura';
+	$plural = 'Acupunturas';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar nova '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
+
+	register_post_type('Acupuntura',$args);
+}
+add_action(	'init','register_post_type_acupuntura');
+
+function register_post_type_estetica(){
+	$singular = 'Estética';
+	$plural = 'Estéticas';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar nova '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
+
+	register_post_type('estetica',$args);
+}
+add_action(	'init','register_post_type_estetica');
 
 /**
  * Implement the Custom Header feature.
