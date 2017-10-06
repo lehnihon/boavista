@@ -3,11 +3,11 @@ get_header(); ?>
 
 <div id="content">
 	<section id="contato">
-		<h1 class="title-full small wow fadeIn">Contato</h1>
+		<h1 class="title-full small wow fadeIn">Contato</h1><br><br>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left">
-					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 6 ); } ?>
+					<?php echo do_shortcode('[contact-form-7 id="26" title="Contato"]') ?>
 				</div>
 				<div class="col-md-6 text-left ">
 					<div class="videoWrapperb">
@@ -27,8 +27,7 @@ get_header(); ?>
 							Rua Boa Vista, 274 - Loja 29<br>
 						Galeria Boa Vista - Centro - SP
 						</p>
-
-						<p>contato@aromasabor.com.br</p>							
+						
 					</div>
 				</div>
 			</div>	

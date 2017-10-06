@@ -128,14 +128,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-receba {
     border: 0;
     padding: 5px; }
-  #page .input-contato {
-    border: 0;
-    padding: 5px;
-    background-color: #f4f4f4; }
   #page .input-contatob {
     border: 0;
     padding: 5px;
     background-color: white; }
+  #page .input-contato {
+    padding: 15px 10px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px; }
+  #page .btn-contato {
+    background-color: #005197;
+    padding: 15px 70px;
+    border-radius: 5px;
+    color: white;
+    border: 0; }
+  #page .btn-contato:hover {
+    background-color: #6696c0; }
   #page .btn-enviar {
     background-color: #b5ab3a;
     padding: 10px 50px;
